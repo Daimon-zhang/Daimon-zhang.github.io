@@ -124,6 +124,203 @@
             
               <li>
                 <h2>
+                  <a class="post-link" href="/2019/05/07/markdown-grammar/">Markdown常用语法</a>
+                </h2>
+                <div class="label">
+                    <div class="label-card">
+                        <i class="fa fa-calendar"></i>2019-05-07
+                    </div>
+                    <div class="label-card">
+                        <i class="fa fa-user"></i>daimon-zhang
+                        
+                    </div>
+                    <div class="label-card">
+                        
+                    </div>
+
+                    <div class="label-card">
+                    
+
+
+<!-- <span class="point">•</span> -->
+<span class="categories">
+  <i class="fa fa-th-list"></i>
+  
+    
+        <a href="/category/#Markdown" title="Category: Markdown" rel="category">Markdown</a>
+    
+  
+
+  <!-- <span class="point">•</span> -->
+</span>
+
+
+                    </div>
+
+                    <div class="label-card">
+                    
+<!-- <span class="point">•</span> -->
+<span class="pageTag">
+  <i class="fa fa-tags"></i>
+  
+    
+        <a href="/tag/#Markdown" title="Tag: Markdown" rel="tag">Markdown</a>
+    
+  
+
+</span>
+
+                    </div>
+                </div>
+                <div class="excerpt">
+                    <ul id="markdown-toc">
+  <li><a href="#概述" id="markdown-toc-概述">概述</a></li>
+  <li><a href="#标题" id="markdown-toc-标题">标题</a></li>
+  <li><a href="#字体" id="markdown-toc-字体">字体</a></li>
+  <li><a href="#图片" id="markdown-toc-图片">图片</a></li>
+  <li><a href="#链接" id="markdown-toc-链接">链接</a></li>
+  <li><a href="#代码" id="markdown-toc-代码">代码</a></li>
+  <li><a href="#引用" id="markdown-toc-引用">引用</a></li>
+  <li><a href="#分割线" id="markdown-toc-分割线">分割线</a></li>
+  <li><a href="#列表" id="markdown-toc-列表">列表</a></li>
+  <li><a href="#表格" id="markdown-toc-表格">表格</a></li>
+</ul>
+
+<h2 id="概述">概述</h2>
+
+<p>如同HTML一样，markdown也是一种标记语言，Markdown的语法简介明了、学习容易，而且功能比纯文本更强，而且Markdown兼容HTML，所以不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写</p>
+
+<h2 id="标题">标题</h2>
+
+<p>标题用#表示，并且最后#后边要加一个空格。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+</code></pre></div></div>
+
+<h2 id="字体">字体</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*斜体的文字*  
+**加粗的文字** 
+***斜体加粗的文字***  
+~~删除线的文字~~  
+</code></pre></div></div>
+
+<h2 id="图片">图片</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![图片下方文字](图片地址 "图片标题")
+"超链接标题"可加可不加
+</code></pre></div></div>
+
+<h2 id="链接">链接</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[超链接名](超链接地址 "超链接标题")
+"超链接标题"可加可不加
+</code></pre></div></div>
+
+<p>注意：Markdown本身语法不支持链接在新页面中打开，如果想要在新页面中打开的话可以用a标签(html)代替。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a href="超链接地址" target="_blank"&gt;超链接名&lt;/a&gt;
+</code></pre></div></div>
+
+<h2 id="代码">代码</h2>
+
+<p>单行代码：用一对反引号表示</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>`代码内容`
+</code></pre></div></div>
+
+<p>代码块：用三对反引号表示，且两边的反引号单独占一行</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```
+代码1
+代码2
+代码3
+```
+</code></pre></div></div>
+
+<h2 id="引用">引用</h2>
+
+<p>引用的文字用&gt;表示，并且可以叠加使用(没有上限，但是也用不了那么多)。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;引用文字
+&gt;&gt;引用文字
+&gt;&gt;&gt;引用文字
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;引用文字
+</code></pre></div></div>
+
+<h2 id="分割线">分割线</h2>
+
+<p>分割线用三个及三个以上的 * 或 - 表示。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>***
+***************
+---
+<span class="gd">----------------------------
+</span></code></pre></div></div>
+
+<h2 id="列表">列表</h2>
+
+<p>无序列表用 - + * 任何一种表示都可以(注：符号后有空格)。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- 列表内容
++ 列表内容
+* 列表内容
+</code></pre></div></div>
+
+<p>有序列表用数字加点表示(注：点后有空格)</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. 列表内容
+2. 列表内容
+3. 列表内容
+</code></pre></div></div>
+
+<p>列表嵌套上一级和下一级之间敲三个空格即可</p>
+
+<ul>
+  <li>列表内容
+    <ul>
+      <li>列表内容</li>
+      <li>列表内容</li>
+    </ul>
+  </li>
+  <li>列表内容</li>
+</ul>
+
+<ol>
+  <li>列表内容</li>
+  <li>列表内容
+    <ol>
+      <li>列表内容</li>
+      <li>列表内容</li>
+    </ol>
+  </li>
+</ol>
+
+<h2 id="表格">表格</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>表头|表头|表头
+---|:--:|---:
+内容|内容|内容
+内容|内容|内容
+</code></pre></div></div>
+
+<p>第二行分割表头和内容，文字默认居左，-两边加：表示文字居中，-右边加：表示文字居右。</p>
+
+
+                </div>
+                <div class="read-all">
+                    <a  href="/2019/05/07/markdown-grammar/"><i class="fa fa-newspaper-o"></i>阅读全部</a>
+                </div>
+                <hr>
+              </li>
+            
+              <li>
+                <h2>
                   <a class="post-link" href="/2019/05/06/first-blog/">Github搭建个人博客</a>
                 </h2>
                 <div class="label">
@@ -227,6 +424,8 @@
                 </div>
                 <ul class="content-ul" recent>
                     
+                        <li><a href="/2019/05/07/markdown-grammar/">Markdown常用语法</a></li>
+                    
                         <li><a href="/2019/05/06/first-blog/">Github搭建个人博客</a></li>
                     
                 </ul>
@@ -244,6 +443,15 @@
                         <a href="/category/#Github" class="categories-list-item" cate="Github">
                             <span class="name">
                                 Github
+                            </span>
+                            <span class="badge">1</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="/category/#Markdown" class="categories-list-item" cate="Markdown">
+                            <span class="name">
+                                Markdown
                             </span>
                             <span class="badge">1</span>
                         </a>
@@ -272,6 +480,13 @@
                       
                       
                       <a href="/tag/#blog" style="font-size: 9pt; color: #999;">blog</a>
+                    
+                      
+                      
+                      
+                      
+                      
+                      <a href="/tag/#Markdown" style="font-size: 9pt; color: #999;">Markdown</a>
                     
                 </div>
             </div>

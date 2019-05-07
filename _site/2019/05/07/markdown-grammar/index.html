@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Github搭建个人博客</title>
-    <meta name="description" content="  由来  安利  结束语由来其实很久以前就想弄个个人网站了，大二的时候买了域名和服务器，用bootstrap框架自己弄了一个网站，不过后来因为种种原因挂掉了，之后备案就被注销了就没再弄了。偶然看到了一篇文章是写如何用Github搭建个人博客，觉得很有意思（主要是不要钱），看了很多篇相关的博文，不但受益匪浅，还少...">
+    <title>Markdown常用语法</title>
+    <meta name="description" content="  概述  标题  字体  图片  链接  代码  引用  分割线  列表  表格概述如同HTML一样，markdown也是一种标记语言，Markdown的语法简介明了、学习容易，而且功能比纯文本更强，而且Markdown兼容HTML，所以不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTM...">
 
     <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon">
     <link rel="icon" href="/favicon.ico?" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_8v3czwksspqlg14i.css">
     <link rel="stylesheet" href="/css/main.css ">
-    <link rel="canonical" href="http://localhost:4001/2019/05/06/first-blog/">
+    <link rel="canonical" href="http://localhost:4001/2019/05/07/markdown-grammar/">
     <link rel="alternate" type="application/rss+xml" title="张大萌的专栏" href="http://localhost:4001/feed.xml ">
 
 
@@ -117,11 +117,11 @@
 
         <div class="page clearfix" post>
     <div class="left">
-        <h1>Github搭建个人博客</h1>
+        <h1>Markdown常用语法</h1>
         <div class="label">
 
             <div class="label-card">
-                <i class="fa fa-calendar"></i>2019-05-06
+                <i class="fa fa-calendar"></i>2019-05-07
             </div>
 
             <div class="label-card">
@@ -144,7 +144,7 @@
   <i class="fa fa-th-list"></i>
   
     
-        <a href="/category/#Github" title="Category: Github" rel="category">Github</a>
+        <a href="/category/#Markdown" title="Category: Markdown" rel="category">Markdown</a>
     
   
 
@@ -161,8 +161,8 @@
   <i class="fa fa-tags"></i>
   
     
-        <!--a href="/tag/#blog" title="Tag: blog" rel="tag">blog</a-->
-        <a href="/tag/#blog" title="Tag: blog" rel="tag">blog</a>
+        <!--a href="/tag/#Markdown" title="Tag: Markdown" rel="tag">Markdown</a-->
+        <a href="/tag/#Markdown" title="Tag: Markdown" rel="tag">Markdown</a>
     
   
 
@@ -174,24 +174,150 @@
         <hr>
         <article itemscope itemtype="http://schema.org/BlogPosting">
         <ul id="markdown-toc">
-  <li><a href="#由来" id="markdown-toc-由来">由来</a></li>
-  <li><a href="#安利" id="markdown-toc-安利">安利</a></li>
-  <li><a href="#结束语" id="markdown-toc-结束语">结束语</a></li>
+  <li><a href="#概述" id="markdown-toc-概述">概述</a></li>
+  <li><a href="#标题" id="markdown-toc-标题">标题</a></li>
+  <li><a href="#字体" id="markdown-toc-字体">字体</a></li>
+  <li><a href="#图片" id="markdown-toc-图片">图片</a></li>
+  <li><a href="#链接" id="markdown-toc-链接">链接</a></li>
+  <li><a href="#代码" id="markdown-toc-代码">代码</a></li>
+  <li><a href="#引用" id="markdown-toc-引用">引用</a></li>
+  <li><a href="#分割线" id="markdown-toc-分割线">分割线</a></li>
+  <li><a href="#列表" id="markdown-toc-列表">列表</a></li>
+  <li><a href="#表格" id="markdown-toc-表格">表格</a></li>
 </ul>
 
-<h2 id="由来">由来</h2>
+<h2 id="概述">概述</h2>
 
-<p>其实很久以前就想弄个个人网站了，大二的时候买了域名和服务器，用bootstrap框架自己弄了一个网站，不过后来因为种种原因挂掉了，之后备案就被注销了就没再弄了。偶然看到了一篇文章是写如何用Github搭建个人博客，觉得很有意思（主要是不要钱），看了很多篇相关的博文，不但受益匪浅，还少走了很多的弯路。自己上手配置了环境，把大佬的写好的博客模板搬过来，就可以跑起来了。当然这只是第一步，后面我会一边装修我的blog一边跟大家分享心得体会（哈哈，假装自己有粉丝）</p>
+<p>如同HTML一样，markdown也是一种标记语言，Markdown的语法简介明了、学习容易，而且功能比纯文本更强，而且Markdown兼容HTML，所以不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写</p>
 
-<h2 id="安利">安利</h2>
+<h2 id="标题">标题</h2>
 
-<p>俗话说站在巨人的肩膀才能看的更远，感谢大佬无私奉献的教程，写的真的很详细很用心，安利给大家</p>
+<p>标题用#表示，并且最后#后边要加一个空格。</p>
 
-<p>https://blog.csdn.net/xudailong_blog/article/details/78762262</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+</code></pre></div></div>
 
-<h2 id="结束语">结束语</h2>
+<h2 id="字体">字体</h2>
 
-<p>说真的，我这真的是第一次正儿八经的写博客，不知道写点什么，也不知道怎么写（我这个小白真的是白的不能再白了）</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*斜体的文字*  
+**加粗的文字** 
+***斜体加粗的文字***  
+~~删除线的文字~~  
+</code></pre></div></div>
+
+<h2 id="图片">图片</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![图片下方文字](图片地址 "图片标题")
+"超链接标题"可加可不加
+</code></pre></div></div>
+
+<h2 id="链接">链接</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[超链接名](超链接地址 "超链接标题")
+"超链接标题"可加可不加
+</code></pre></div></div>
+
+<p>注意：Markdown本身语法不支持链接在新页面中打开，如果想要在新页面中打开的话可以用a标签(html)代替。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a href="超链接地址" target="_blank"&gt;超链接名&lt;/a&gt;
+</code></pre></div></div>
+
+<h2 id="代码">代码</h2>
+
+<p>单行代码：用一对反引号表示</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>`代码内容`
+</code></pre></div></div>
+
+<p>代码块：用三对反引号表示，且两边的反引号单独占一行</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```
+代码1
+代码2
+代码3
+```
+</code></pre></div></div>
+
+<h2 id="引用">引用</h2>
+
+<p>引用的文字用&gt;表示，并且可以叠加使用(没有上限，但是也用不了那么多)。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;引用文字
+&gt;&gt;引用文字
+&gt;&gt;&gt;引用文字
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;引用文字
+</code></pre></div></div>
+
+<h2 id="分割线">分割线</h2>
+
+<p>分割线用三个及三个以上的 * 或 - 表示。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>***
+***************
+---
+<span class="gd">----------------------------
+</span></code></pre></div></div>
+
+<h2 id="列表">列表</h2>
+
+<p>无序列表用 - + * 任何一种表示都可以(注：符号后有空格)。</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- 列表内容
++ 列表内容
+* 列表内容
+</code></pre></div></div>
+
+<p>有序列表用数字加点表示(注：点后有空格)</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. 列表内容
+2. 列表内容
+3. 列表内容
+</code></pre></div></div>
+
+<p>列表嵌套上一级和下一级之间敲三个空格即可</p>
+
+<ul>
+  <li>列表内容
+    <ul>
+      <li>列表内容</li>
+      <li>列表内容</li>
+    </ul>
+  </li>
+  <li>列表内容</li>
+</ul>
+
+<ol>
+  <li>列表内容</li>
+  <li>列表内容
+    <ol>
+      <li>列表内容</li>
+      <li>列表内容</li>
+    </ol>
+  </li>
+</ol>
+
+<h2 id="表格">表格</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>表头|表头|表头
+---|:--:|---:
+内容|内容|内容
+内容|内容|内容
+</code></pre></div></div>
+
+<p>第二行分割表头和内容，文字默认居左，-两边加：表示文字居中，-右边加：表示文字居右。</p>
+
+<p>参考文章：</p>
+
+<p><a href="https://www.jianshu.com/p/191d1e21f7ed">https://www.jianshu.com/p/191d1e21f7ed</a>（Markdown基本语法）</p>
+
+<p><a href="https://www.appinn.com/markdown/#link">https://www.appinn.com/markdown/#link</a>（Markdown语法说明）</p>
+
+<p><a href="https://baike.sogou.com/v7868944.htm?fromTitle=markdown">https://baike.sogou.com/v7868944.htm?fromTitle=markdown</a>（Markdown搜狗百科）</p>
 
 
         </article>
@@ -211,11 +337,11 @@
         <div class="post-recent">
     <div class="pre">
         
+        <p><strong>上一篇</strong> <a href="/2019/05/06/first-blog/">Github搭建个人博客</a></p>
+        
     </div>
     <div class="nex">
 
-        
-        <p><strong>下一篇</strong> <a href="/2019/05/07/markdown-grammar/">Markdown常用语法</a></p>
         
     </div>
 </div>
