@@ -17,11 +17,11 @@ author: daimon-zhang
 
 俗话说站在巨人的肩膀才能看的更远，感谢大佬无私奉献的教程，写的真的很详细很用心，安利给大家
 
-https://blog.csdn.net/xudailong_blog/article/details/78762262
+[徐代龙：https://blog.csdn.net/xudailong_blog/article/details/78762262](https://blog.csdn.net/xudailong_blog/article/details/78762262)
 
 ## 结束语
 
-说真的，我这真的是第一次正儿八经的写博客，不知道写点什么，也不知道怎么写（我这个小白真的是白的不能再白了）
+说真的，我这真的是第一次正儿八经的写博客，不知道写点什么，也不知道怎么写，今天的第一篇文章就先这样吧（笑哭.gif）
 
 
 
