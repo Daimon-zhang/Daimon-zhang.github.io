@@ -7,7 +7,7 @@
 
 # Site settings
 title: 张大萌的专栏
-brief-intro: Daimon-zhang’blog
+brief-intro: Daimon-zhang’s blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://daimon-zhang.github.io/" # the base hostname & protocol for your site
 
