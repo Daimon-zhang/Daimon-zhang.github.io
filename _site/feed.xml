@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>张大萌的专栏</title>
+    <description></description>
+    <link>http://localhost:4001/</link>
+    <atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 07 May 2019 17:25:47 +0800</pubDate>
+    <lastBuildDate>Tue, 07 May 2019 17:25:47 +0800</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Github搭建个人博客</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#由来&quot; id=&quot;markdown-toc-由来&quot;&gt;由来&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#安利&quot; id=&quot;markdown-toc-安利&quot;&gt;安利&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#结束语&quot; id=&quot;markdown-toc-结束语&quot;&gt;结束语&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;由来&quot;&gt;由来&lt;/h2&gt;
+
+其实很久以前就想弄个个人网站了，大二的时候买了域名和服务器，用bootstrap框架自己弄了一个网站，不过后来因为种种原因挂掉了，之后备案就被注销了就没再弄了。偶然看到了一篇文章是写如何用Github搭建个人博客，觉得很有意思（主要是不要钱），看了很多篇相关的博文，不但受益匪浅，还少走了很多的弯路。自己上手配置了环境，把大佬的写好的博客模板搬过来，就可以跑起来了。当然这只是第一步，后面我会一边装修我的blog一边跟大家分享心得体会（哈哈，假装自己有粉丝）
+
+&lt;h2 id=&quot;安利&quot;&gt;安利&lt;/h2&gt;
+
+俗话说站在巨人的肩膀才能看的更远，感谢大佬无私奉献的教程，写的真的很详细很用心，安利给大家
+
+https://blog.csdn.net/xudailong_blog/article/details/78762262
+
+&lt;h2 id=&quot;结束语&quot;&gt;结束语&lt;/h2&gt;
+
+说真的，我这真的是第一次正儿八经的写博客，不知道写点什么，也不知道怎么写（我这个小白真的是白的不能再白了）
+</description>
+        <pubDate>Mon, 06 May 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4001/2019/05/06/first-blog/</link>
+        <guid isPermaLink="true">http://localhost:4001/2019/05/06/first-blog/</guid>
+        
+        <category>blog</category>
+        
+        
+        <category>Github</category>
+        
+      </item>
+    
+  </channel>
+</rss>
